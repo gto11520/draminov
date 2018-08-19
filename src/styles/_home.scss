@@ -1,0 +1,129 @@
+.home{
+  .row{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .banner-section{
+    height: 600px;
+    .carousel-item img{
+      height: 600px;
+      object-fit: cover;
+    }
+  }
+
+  .booking-section{
+    .book, .call, .opening-hours, .visit{
+      padding: 4rem 3rem 2rem;
+      color: #ffffff;
+      background-color: #0a70c3;
+    }
+  }
+
+  .about-section{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+
+    p{
+      color: #0a70c3;
+    }
+
+    .description{
+      padding: 4rem 2rem;
+      text-align: center;
+      color: #ffffff;
+      background-color: #0a70c3;
+    }
+    a{
+      color: #ffffff;
+    }
+    a:hover{
+      color: #ffffff;
+    }
+  }
+
+  .specialties-section{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-color: #f4f4f4;
+
+    .heading{
+      width: 60%;
+      margin: auto;
+      h1{
+        color: #0a70c3;
+      }
+    }
+    .cards-holder{
+      width: 98%;
+      margin: auto;
+
+      .card {
+        margin-left: 1rem;
+        margin-right: 1rem;
+
+        .card-img-top{
+          width: 50%;
+          min-height: 15rem;
+          margin: 2rem auto;
+          border-radius: 50%;
+        }
+      }
+    }
+  }
+
+  .call-to-action-section{
+    background-image: url(https://workerscompdrqueens.com/wp-content/uploads/2018/05/cta-section-bg.jpg);
+    height: 480px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+  }
+
+  .meet-doctors-section{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+
+    .doc{
+      padding: 0px 1rem;
+      img{
+        border-radius: 50%;
+      }
+      p{
+        text-align: left;
+      }
+    }
+  }
+
+  .review-section{
+    background-image: url(https://workerscompdrqueens.com/wp-content/uploads/2018/05/cta-section-bg.jpg);
+    height: 480px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+  }
+  .evaluation-section{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+
+    .left-banner{
+    }
+    .evaluation-form{
+      padding: 4rem 2rem;
+      background-color: #f4f4f4;
+    }
+  }
+  .faqs-section{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    color: #ffffff;
+    background-color: #0a70c3;
+  }
+  .contact-section{
+    .map{
+      background-color: #f4f4f4;
+    }
+    .details{
+      padding: 4rem;
+    }
+  }
+}

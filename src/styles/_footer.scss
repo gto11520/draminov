@@ -1,0 +1,27 @@
+.footer{
+  p{
+    font-size: 0.8rem;
+    line-height: 2.5;
+  }
+  .details{
+    color: #ffffff;
+    padding: 5rem 4rem;
+    background-color: #0c477f;
+  }
+  .links{
+    color: #000000;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    background-image: linear-gradient(180deg,#ffffff 0%,#c1c1c1 100%);
+    ul{
+      list-style: none;
+      margin-bottom: 0px;
+
+      li{
+        display: inline-block;
+        padding: 0.5rem 1rem;
+      }
+    }
+  }
+}
