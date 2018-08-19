@@ -64,15 +64,15 @@ const Home = () => (
           <div className="col-md-8">
             <h3>Welcome to Workers’ Comp Doctor Queens</h3>
             <h5>Experienced Doctors. Real Outcomes.</h5>
-            <p>
+            <p className="muted">
               Work-related injuries require immediate treatment. Your Workers’ Compensation doctor should file a preliminary medical report within 48 hours of the incident. Almost every worker in New York qualifies for Workers’ Compensation coverage. Our doctors create a judgment-free zone where the goal is to help you start feeling better right now.
             </p>
             <div className="divider m-t m-b"></div>
             <h3>Who we are</h3>
-            <p>
+            <p className="muted">
               Medex is a full-service diagnostic and treatment center which offers Workers’ Compensation appointments with an emphasis on providing multiple specialties. This allows you to seek the treatment you require from a work-related injury immediately with confidence. With a convenient location in Forest Hills and world-class care provided, the goal of our team is to make sure you start feeling better today.
             </p>
-            <p>
+            <p className="muted">
               Free validated parking is available (Up to 2 hours).
             </p>
             <button type="button" className="btn btn-primary">Read More About MEDEX</button>
@@ -195,6 +195,7 @@ const Home = () => (
               </p>
             </div>
           </div>
+          <div className="col-md-0"></div>
           <div className="col-md-6 evaluation-form text-center">
             <h2>Get Your Injury Treated Today!</h2>
             <form>
@@ -208,7 +209,7 @@ const Home = () => (
                 <input type="text" className="form-control" placeholder="Enter phone" />
               </div>
               <div className="form-group">
-                <textarea rows="3" className="form-control" placeholder="Brief description"></textarea>
+                <textarea rows="5" className="form-control" placeholder="Brief description"></textarea>
               </div>
               <button type="submit" className="btn btn-primary w-100">Submit</button>
             </form>
