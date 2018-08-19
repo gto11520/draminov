@@ -12,12 +12,12 @@ const Header = () => (
       </div>
       <div>
         <NavLink to='/' activeClassName='selected'>Home</NavLink>
-        <NavLink to='/clinic'>The Clinic</NavLink>
-        <NavLink to='/services'>Services</NavLink>
-        <NavLink to='/doctors'>The Doctors</NavLink>
-        <NavLink to='/testimonals'>Testimonials</NavLink>
-        <NavLink to='/blogs'>Blogs</NavLink>
-        <NavLink to='/contact'>Contact Us</NavLink>
+        <NavLink to='/clinic' activeClassName='selected'>The Clinic</NavLink>
+        <NavLink to='/services' activeClassName='selected'>Services</NavLink>
+        <NavLink to='/doctors' activeClassName='selected'>The Doctors</NavLink>
+        <NavLink to='/testimonals' activeClassName='selected'>Testimonials</NavLink>
+        <NavLink to='/blogs' activeClassName='selected'>Blogs</NavLink>
+        <NavLink to='/contact' activeClassName='selected'>Contact Us</NavLink>
       </div>
     </div>
   </div>

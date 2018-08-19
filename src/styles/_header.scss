@@ -10,7 +10,14 @@
       color: red;
     }
     a{
-      padding: 0.5rem
+      padding: 0.5rem;
+      color: #000;
     }
-  }   
+    a:hover{
+      text-decoration: none;
+    }
+    a.selected{
+      color: #0a70c3;
+    } 
+  } 
 }
