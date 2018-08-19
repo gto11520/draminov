@@ -102,28 +102,28 @@ const Home = () => (
           <img className="card-img-top" src="https://workerscompdrqueens.com/wp-content/uploads/2018/03/pain-management-250x250-1.jpg" alt="Card image cap" />
           <div className="card-body">
             <h4>Pain Management</h4>
-            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p className="card-text">Pain is a symptom which tells you that something is not right. There are better ways to handle work-related pain than taking over-the-counter medication. Schedule an appointment today to look at what other options may be available to you.</p>
           </div>
         </div>
         <div className="card">
           <img className="card-img-top" src="https://workerscompdrqueens.com/wp-content/uploads/2018/03/pain-management-250x250-1.jpg" alt="Card image cap" />
           <div className="card-body">
             <h4>lnternal Medicine</h4>
-            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p className="card-text">Pain is a symptom which tells you that something is not right. There are better ways to handle work-related pain than taking over-the-counter medication. Schedule an appointment today to look at what other options may be available to you.</p>
           </div>
         </div>
         <div className="card">
           <img className="card-img-top" src="https://workerscompdrqueens.com/wp-content/uploads/2018/03/pain-management-250x250-1.jpg" alt="Card image cap" />
           <div className="card-body">
             <h4>Neurology</h4>
-            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p className="card-text">Pain is a symptom which tells you that something is not right. There are better ways to handle work-related pain than taking over-the-counter medication. Schedule an appointment today to look at what other options may be available to you.</p>
           </div>
         </div>
         <div className="card">
           <img className="card-img-top" src="https://workerscompdrqueens.com/wp-content/uploads/2018/03/pain-management-250x250-1.jpg" alt="Card image cap" />
           <div className="card-body">
             <h4>Physical Therapy</h4>
-            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p className="card-text">Pain is a symptom which tells you that something is not right. There are better ways to handle work-related pain than taking over-the-counter medication. Schedule an appointment today to look at what other options may be available to you.</p>
           </div>
         </div>
       </div>
