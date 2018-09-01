@@ -1,0 +1,108 @@
+.contact{
+  .banner{
+    height: 380px;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    background-position: bottom;
+    background-blend-mode: overlay;
+    background-color: initial!important;
+    background-image: url(https://workerscompdrqueens.com/wp-content/uploads/2018/05/contact-head-bg.jpg),linear-gradient(180deg,rgba(0,0,0,0.43) 0%,rgba(0,0,0,0.34) 100%)!important;
+    color: #ffffff;
+    
+    padding: 5rem 0;
+    .container{
+      max-width: 720px;
+    }
+    .bottom-divider{
+      background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSI3MHB4IiB2aWV3Q…4yNmE3My4yOSA3My4yOSAwIDAgMS0zOS4wOSA2TDAgMHYxNDBoMTI4MHoiLz48L2c+PC9zdmc+);
+      background-size: 100% 70px;
+      bottom: 0;
+      height: 70px;
+      z-index: 1;
+      transform: rotateY(180deg);
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      background-repeat-y: no-repeat;
+    }
+  }
+  .address-section{
+    padding: 5rem 0 0;
+    .contact-form:before{
+      width: 0;
+      height: 0;
+      border-left: 0px solid transparent;
+      border-right: 556px solid transparent;
+      border-bottom: 37px solid #085f9e;
+      content: '';
+      position: absolute;
+      left: 50%;
+      top: -35px;
+      width: 80%;
+      height: 0;
+      border-top-left: 99px solid #085f9e;
+      clear: both;
+      transform: translateX(-50%);
+    }
+    .contact-form{
+      position: relative;
+      padding: 3rem 3rem 5rem;
+      color: #ffffff;
+      background-color: #09609e;
+      form{
+        margin-top: 2rem;
+        .form-group{
+          margin-bottom: 2rem;
+        }
+        .form-group input.form-control{
+          border-radius: 5rem;
+          line-height: 2;
+          background: #eeeeee;
+          border: 2px solid #09609e;
+        }
+        .form-group textarea.form-control{
+          border-radius: 18px;
+          background: #eeeeee;
+          border: 2px solid #09609e;
+        }
+        button.btn{
+          line-height: 2;
+        }
+      }
+      h4{
+        color: #ffffff;
+      }
+      i{
+        font-size: 48px;
+      }
+    }
+  }
+  .facilities{
+    padding: 3rem 0;
+    color: #ffffff;
+    background-color: #09609e;
+    position: relative;
+    img{
+      margin-bottom: 3rem;
+    }
+  }
+  .facilities:before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: -50px;
+    width: 100%;
+    height: 100px;
+    border: 5px solid #085f9e;
+    border-radius: 50%;
+    background-color: #085f9e;
+    clear: both;
+    transform: translateX(-50%);
+  }
+  .map{
+    height: 506px;
+  }
+}

@@ -1,0 +1,82 @@
+.doctors{
+  .banner{
+    height: 650px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-blend-mode: overlay;
+    background-color: initial!important;
+    background-image: url(https://workerscompdrqueens.com/wp-content/uploads/2018/05/doctors-head-bg.jpg),linear-gradient(180deg,rgba(0,0,0,0.58) 0%,rgba(0,0,0,0.16) 100%)!important;
+  }
+  .creteria{
+    padding: 5rem;
+    background-color: #e5e5e5;
+  }
+  .staff{
+    padding: 5rem 0;
+  }
+  .team-desc{
+    padding: 5rem 0;
+    color: #ffffff;
+    background-color: #0c71c3!important;
+  }
+  .review-section:before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 100%;
+    height: 16px;
+    border-left: 58rem solid transparent;
+    border-right: 58rem solid transparent;
+    border-top: 40px solid #fff;
+    clear: both;
+    transform: translateX(-50%);
+  }
+  .review-section{
+    color: #ffffff;
+    padding: 6rem 0;
+    text-align: center;
+    position: relative;
+    background-image: url(https://workerscompdrqueens.com/wp-content/uploads/2018/05/home-testimonial-bg.jpg),linear-gradient(180deg,rgba(0,0,0,0) 0%,rgba(0,0,0,0.21) 100%)!important;
+    height: 507px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    
+    h2{
+      font-weight: bold;
+    }
+  }
+  .review-section:after{
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 92%;
+    width: 100%;
+    height: 0;
+    border-left: 58rem solid transparent;
+    border-right: 58rem solid transparent;
+    border-bottom: 40px solid #fff;
+    clear: both;
+    transform: translateX(-50%);
+  }
+  .help{
+    color: #ffffff;
+    padding: 5rem 0px;
+    background-color: #6b6b6b!important;
+    background-image: linear-gradient(180deg,#757575 0%,#303030 100%)!important;
+  }
+  .e-book{
+    background-color: #e5e5e5;
+    text-align: center;
+    padding: 5rem 0px;
+    h4{
+      margin-bottom: 4rem;
+    }
+    button{
+      font-size: 1.4rem;
+    }
+  }
+}
