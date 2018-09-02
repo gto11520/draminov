@@ -41,7 +41,6 @@ const Footer = () => (
 			<ul>
 				<li>Home</li>
 				<li>The clinic</li>
-				<li>Services</li>
 				<li>Blog</li>
 				<li>Privacy Policy</li>
 				<li>Terms of use</li>
