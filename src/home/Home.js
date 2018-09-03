@@ -1,6 +1,9 @@
 import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import slide3 from '../assets/home-slider-3.jpg';
+import slide4 from '../assets/home-slider-4-v1.jpg'
+import slide5 from '../assets/home-slider-5.jpg'
 
 const Home = () => (
   <div className="home">
@@ -13,13 +16,13 @@ const Home = () => (
         </ol>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img className="d-block w-100" src="https://workerscompdrqueens.com/wp-content/uploads/2018/05/home-slider-5.jpg" alt="First slide" />
+            <img className="d-block w-100" src="./images/home-slider-3.jpg" alt="Second slide" />
           </div>
           <div className="carousel-item">
-            <img className="d-block w-100" src="https://workerscompdrqueens.com/wp-content/uploads/2018/05/home-slider-3.jpg" alt="Second slide" />
+            <img className="d-block w-100" src="./images/home-slider-4-v1.jpg"  alt="Third slide" />
           </div>
           <div className="carousel-item">
-            <img className="d-block w-100" src="https://workerscompdrqueens.com/wp-content/uploads/2018/05/home-slider-4-v1.jpg" alt="Third slide" />
+            <img className="d-block w-100" src="./images/home-slider-5.jpg"  alt="First slide" />
           </div>
         </div>
         <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -79,7 +82,7 @@ const Home = () => (
           </div>
           <div className="col-md-4">
             <div>
-              <img className="w-100" src="https://workerscompdrqueens.com/wp-content/uploads/2018/05/home-about-image-500x400.jpg" />
+              <img className="w-100" src="./images/pulse-check.jpg" />
             </div>
             <div className="description">
               <small><b>Medex Diagnostic and Treatment Center</b></small><br />
@@ -106,21 +109,21 @@ const Home = () => (
           </div>
         </div>
         <div className="card">
-          <img className="card-img-top" src="https://workerscompdrqueens.com/wp-content/uploads/2018/03/pain-management-250x250-1.jpg" alt="Card image cap" />
+          <img className="card-img-top" src="./images/pt3.jpg" alt="Card image cap" />
           <div className="card-body">
             <h4>lnternal Medicine</h4>
             <p className="card-text">Pain is a symptom which tells you that something is not right. There are better ways to handle work-related pain than taking over-the-counter medication. Schedule an appointment today to look at what other options may be available to you.</p>
           </div>
         </div>
         <div className="card">
-          <img className="card-img-top" src="https://workerscompdrqueens.com/wp-content/uploads/2018/03/pain-management-250x250-1.jpg" alt="Card image cap" />
+          <img className="card-img-top" src="https://workerscompdrqueens.com/wp-content/uploads/2018/03/neurology-250x250-1.jpg" alt="Card image cap" />
           <div className="card-body">
             <h4>Neurology</h4>
             <p className="card-text">Pain is a symptom which tells you that something is not right. There are better ways to handle work-related pain than taking over-the-counter medication. Schedule an appointment today to look at what other options may be available to you.</p>
           </div>
         </div>
         <div className="card">
-          <img className="card-img-top" src="https://workerscompdrqueens.com/wp-content/uploads/2018/03/pain-management-250x250-1.jpg" alt="Card image cap" />
+          <img className="card-img-top" src="./images/pt2.jpg" alt="Card image cap" />
           <div className="card-body">
             <h4>Physical Therapy</h4>
             <p className="card-text">Pain is a symptom which tells you that something is not right. There are better ways to handle work-related pain than taking over-the-counter medication. Schedule an appointment today to look at what other options may be available to you.</p>
@@ -182,11 +185,14 @@ const Home = () => (
       </div>
     </div>
     <div className="review-section">
+      <h1>We Promised To Take Care… And Delivered</h1>
+      <h5>Hear what our patients tell about us</h5>
+
     </div>
     <div className="evaluation-section">
       <div  className="container">
         <div className="row align-items-center">
-          <div className="col-md-6 left-banner">
+          <div className="col-md-5 left-banner">
             <img src="https://workerscompdrqueens.com/wp-content/uploads/2018/05/home-form-image.jpg" />
             <div>
               <h1>Get Your Injury Evaluated!</h1>
@@ -195,7 +201,7 @@ const Home = () => (
               </p>
             </div>
           </div>
-          <div className="col-md-0"></div>
+          <div className="col-md-1"></div>
           <div className="col-md-6 evaluation-form text-center">
             <h2>Get Your Injury Treated Today!</h2>
             <form>

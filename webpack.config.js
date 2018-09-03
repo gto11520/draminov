@@ -1,6 +1,7 @@
 const path = require('path');
 const webpack = require('webpack');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 process.env.NODE_ENV = process.env.NODE_ENV || 'development';
 
@@ -43,10 +44,16 @@ module.exports = (env) => {
             }
           ]
         })
+      },{
+        test: /\.(jpg|png)$/,
+        use: "file-loader"
       }]
     },
     plugins: [
-      CSSExtract
+      CSSExtract,
+      new CopyWebpackPlugin([
+          {from:'src/assets',to:'assets'} 
+      ])
     ],
     devtool: isProduction ? 'source-map' : 'inline-source-map',
     devServer: {

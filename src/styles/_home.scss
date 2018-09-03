@@ -112,9 +112,10 @@
 
   .call-to-action-section{
     position: relative;
-    background-image: url(https://workerscompdrqueens.com/wp-content/uploads/2018/05/cta-section-bg.jpg);
+    background: url(../../public/images/hypertension.jpg), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
     height: 480px;
     background-repeat: no-repeat;
+    background-blend-mode: overlay;
     background-size: cover;
     background-position: top center;
   }
@@ -164,11 +165,16 @@
 
   .review-section{
     position: relative;
-    background-image: url(https://workerscompdrqueens.com/wp-content/uploads/2018/05/cta-section-bg.jpg);
+    background-image: url('../../public/images/medical-procedures.jpg'), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-blend-mode: overlay;
     height: 480px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top center;
+    background-position: center;
+    padding: 5rem;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
   }
   .review-section:after{
     content: '';
