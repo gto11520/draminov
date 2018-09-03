@@ -12,10 +12,16 @@
   }
 
   .booking-section{
-    .book, .call, .opening-hours, .visit{
+    background-color: #0a70c3;
+    color: #ffffff;
+    .first-office, .second-office{
       padding: 4rem 3rem 2rem;
-      color: #ffffff;
-      background-color: #0a70c3;
+      .fas{
+        margin-right: 0.5rem;
+      }
+    }
+    .first-office.schedule{
+      border-right: 1px solid #fefefe;
     }
   }
 
@@ -243,12 +249,14 @@
     color: #ffffff;
     background-color: #0a70c3;
   }
-  .contact-section{
-    .map{
-      background-color: #f4f4f4;
+  .contact-section {
+    .map {
+      width: 100%;
+      height: 350px;
     }
-    .details{
-      padding: 4rem;
+    .details {
+      width: 60%;
+      padding: 3rem 2rem;
     }
   }
 }

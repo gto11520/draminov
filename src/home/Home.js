@@ -4,6 +4,7 @@ import Footer from '../components/Footer';
 import slide3 from '../assets/home-slider-3.jpg';
 import slide4 from '../assets/home-slider-4-v1.jpg'
 import slide5 from '../assets/home-slider-5.jpg'
+import GoogleMapReact from 'google-map-react';
 
 const Home = () => (
   <div className="home">
@@ -37,27 +38,48 @@ const Home = () => (
     </div>
     <div className="booking-section">
       <div className="row">
-        <div className="col-md-3 book">
-          <h3><b>Book Online</b></h3>
-          <p>
-            Book your next appointment online. Our online system is online 24/7 to get you scheduled.
-          </p>
+        <div className="col-md-3 first-office">
+          <h3><b>First Office</b></h3>
+          <div>
+            <span><i className="fas fa-home"></i></span>
+            <span>9851 64th Ave
+            Ste 1G
+            Rego Park, NY 11374
+            Rego Park, Forest Hills</span>
+          </div>
+          <div>
+            <span><i className="fas fa-phone"></i></span>
+            <span>(718) 275-6968</span>
+          </div>
         </div>
-        <div className="col-md-3 call">
-          <h3><b>Call Us</b></h3>
-          <p>Call: 1-718-260-6590 <br />
-          Toll Free: 1-718-260-6590</p>
-        </div>
-        <div className="col-md-3 opening-hours">
+        <div className="col-md-3 first-office schedule">
           <h3><b>Opening Hours</b></h3>
-          <p>Monday – Friday 8:00 – 5:00<br />
-          Saturday 9:00 – 5:00<br />
-          Sunday 11:00 – 4:00</p>
+          <div className="d-flex flex-row justify-content-between"><div>Monday</div> <div>9:00am – 7:00pm</div></div>
+          <div className="d-flex flex-row justify-content-between"><div>Tuesday</div> <div>9:00am – 7:00pm</div></div>
+          <div className="d-flex flex-row justify-content-between"><div>Wednesday</div> <div>9:00am – 6:00pm</div></div>
+          <div className="d-flex flex-row justify-content-between"><div>Thursday</div> <div>9:00am – 7:00pm</div></div>
+          <div className="d-flex flex-row justify-content-between"><div>Friday</div> <div>9:00am – 4:00pm</div></div>
+          <div className="d-flex flex-row justify-content-between"><div>Saturday, Sunday</div> <div>closed</div></div>
         </div>
-        <div className="col-md-3 visit">
-          <h3><b>Visit Us</b></h3>
-          <p>111-29 Queens Blvd<br />
-          Forest Hills, NY 11375</p>
+        <div className="col-md-3 second-office">
+          <h3><b>Second Office</b></h3>
+          <div>
+            <span><i className="fas fa-home"></i></span>
+            <span>2270 Grand Ave Baldwin, NY 11510</span>
+          </div>
+          <div>
+            <span><i className="fas fa-phone"></i></span>
+            <span>(516) 379-0000</span>
+          </div>
+        </div>
+        <div className="col-md-3 second-office schedule">
+          <h3><b>Opening Hours</b></h3>
+          <div className="d-flex flex-row justify-content-between"><div>Monday</div> <div>9:00am – 6:30pm</div></div>
+          <div className="d-flex flex-row justify-content-between"><div>Tuesday</div> <div>9:00am – 2:30pm</div></div>
+          <div className="d-flex flex-row justify-content-between"><div>Wednesday</div> <div>9:00am – 6:30pm</div></div>
+          <div className="d-flex flex-row justify-content-between"><div>Thursday</div> <div>9:00am – 6:30pm</div></div>
+          <div className="d-flex flex-row justify-content-between"><div>Friday</div> <div>9:00am – 2:30pm</div></div>
+          <div className="d-flex flex-row justify-content-between"><div>Saturday, Sunday</div> <div>closed</div></div>
         </div>
       </div>
     </div>
@@ -230,75 +252,47 @@ const Home = () => (
       <div className="container">
         <h1 className="text-center">Frequently Asked Questions</h1>
         <div className="faqs">
-          <div id="accordion">
-            <div class="card">
-              <div class="card-header" id="headingOne">
-                <h5 class="mb-0">
-                  <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    Collapsible Group Item #1
-                  </button>
-                </h5>
-              </div>
-
-              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                <div class="card-body">
-                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-header" id="headingTwo">
-                <h5 class="mb-0">
-                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    Collapsible Group Item #2
-                  </button>
-                </h5>
-              </div>
-              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                <div class="card-body">
-                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-header" id="headingThree">
-                <h5 class="mb-0">
-                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    Collapsible Group Item #3
-                  </button>
-                </h5>
-              </div>
-              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                <div class="card-body">
-                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                </div>
-              </div>
-            </div>
-          </div>
+          
         </div>
       </div>
     </div>
     <div className="contact-section">
       <div className="row">
         <div className="col-md-6">
-          <div className="details">
-            <h3 className="m-t">Contact Information</h3>
-            <small>Medex Diagnostic & Treatment Center</small><br />
-            <small>111-29 Queens Blvd, Forest Hills, NY 11375</small><br />
-            <small>(718) 260-6590</small><br />
-            <small>help@workerscompdrqueens.com</small><br />
-
-            <h3 className="m-t">Transportation</h3>
-            <ul>
-              <li>Transportation provided to eligible patients</li>
-              <li>Free validated parking available</li>
-              <li>Subway: 75th Ave (F,E)</li>
-              <li>Buses: (QM18, Q60)</li>
-            </ul>
+          <div className="d-flex flex-row justify-content-between">
+            <div className="details">
+              <h3 className="m-t">First Office</h3>
+              <h5>Contact Information</h5>
+              <small>Medex Diagnostic & Treatment Center</small><br />
+              <small>9851 64th Ave Ste 1G Rego Park, NY 11374 Rego Park, Forest Hills</small><br />
+              <small>(718) 275-6968</small><br />
+            </div>
+            <div className="map" id="map">
+              <GoogleMapReact
+                bootstrapURLKeys={{ key: 'AIzaSyDJfIq8jUIH5uZ9bLHqwk7HJ6cEzCL_No0' }}
+                defaultCenter={{ lat: 59.95, lng: 30.33 }}
+                defaultZoom={11}>
+              </GoogleMapReact>
+            </div>
           </div>
         </div>
-        <div className="col-md-6 map">
-
+        <div className="col-md-6">
+          <div className="d-flex flex-row justify-content-between">
+            <div className="details">
+              <h3 className="m-t">Second Office</h3>
+              <h5>Contact Information</h5>
+              <small>Medex Diagnostic & Treatment Center</small><br />
+              <small>2270 Grand Ave Baldwin, NY 11510</small><br />
+              <small>(516) 379-0000</small><br />
+            </div>
+            <div className="map" id="map">
+              <GoogleMapReact
+                bootstrapURLKeys={{ key: 'AIzaSyDJfIq8jUIH5uZ9bLHqwk7HJ6cEzCL_No0' }}
+                defaultCenter={{ lat: 59.95, lng: 30.33 }}
+                defaultZoom={11}>
+              </GoogleMapReact>
+            </div>
+          </div>
         </div>
       </div>
     </div>
