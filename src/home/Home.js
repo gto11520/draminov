@@ -219,7 +219,7 @@ const Home = () => (
             <div>
               <h1>Get Your Injury Evaluated!</h1>
               <p>
-                Seeing the correct doctor or specialist is a critical component to your post-accident care. Request an appointment today by speaking with our friendly staff at (718) 260-6590 or by filling out the request form.
+                Seeing the correct doctor or specialist is a critical component to your post-accident care. Request an appointment today by speaking with our friendly staff at (718) 275-6968 or by filling out the request form.
               </p>
             </div>
           </div>
@@ -263,7 +263,7 @@ const Home = () => (
             <div className="details">
               <h3 className="m-t">First Office</h3>
               <h5>Contact Information</h5>
-              <small>Medex Diagnostic & Treatment Center</small><br />
+              <small>Lev Aminov Worker's Compensation Doctor</small><br />
               <small>9851 64th Ave Ste 1G Rego Park, NY 11374 Rego Park, Forest Hills</small><br />
               <small>(718) 275-6968</small><br />
             </div>
@@ -281,7 +281,7 @@ const Home = () => (
             <div className="details">
               <h3 className="m-t">Second Office</h3>
               <h5>Contact Information</h5>
-              <small>Medex Diagnostic & Treatment Center</small><br />
+              <small>Lev Aminov Worker's Compensation Doctor</small><br />
               <small>2270 Grand Ave Baldwin, NY 11510</small><br />
               <small>(516) 379-0000</small><br />
             </div>

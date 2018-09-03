@@ -6,16 +6,25 @@ const Footer = () => (
 			<div className="row">
 				<div className="col-md-6">
 					<h5>ABOUT US</h5>
-					<p>
-						Medex Diagnostics and Treatment Center works with you to ensure that you always have access to the treatment and care you require to make the fullest recovery possible. A work related accident in New York can be a devastating experience. Let us help you start to feel better if you’ve been in a recent accident or injury. Schedule your appointment with our team today.
+					<p> Lev Aminov works with you to ensure that you always have access to the treatment and care you require to make the fullest recovery possible. A work related accident in New York can be a devastating experience. Let us help you start to feel better if you’ve been in a recent accident or injury. Schedule your appointment with our team today.
 					</p>
-					<h5>CONTACT INFORMATION</h5>
-					<div>Medex Diagnostic & Treatment Center</div>
-					<p>
-					111-29 Queens Blvd, Forest Hills, NY 11375 <br />
-					(718) 260-6590 <br />
-					help@workerscompdrqueens.com <br />
-					</p>
+					<h5 className="m-b">CONTACT INFORMATION</h5>
+					<div className="d-flex flex-row justify-content-between">
+						<div>
+							<div><b>First Office</b></div>
+							<div>Lev Aminov Worker's Compensation Doctor</div>
+							<p>
+							9851 64th Ave Ste 1G Rego Park, NY 11374 <br />
+							(718) 275-6968</p>
+						</div>
+						<div>
+							<div><b>Second Office</b></div>
+							<div>Lev Aminov Worker's Compensation Doctor</div>
+							<p>
+							2270 Grand Ave Baldwin, NY 11510<br />
+							(516) 379-0000</p>
+						</div>
+					</div>
 				</div>
 				<div className="col-md-3">
 					<h5>RECENT POSTS</h5>
