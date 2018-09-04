@@ -8,7 +8,7 @@ const Header = () => (
     </div>
     <div className="d-flex flex-row justify-content-between align-items-center navbar">
       <div className="logo">
-        <h1><NavLink to='/'>Logo</NavLink></h1>
+        <NavLink to='/'><img src="./images/logo.jpg" /></NavLink>
       </div>
       <div>
         <NavLink to='/' activeClassName='selected'>Home</NavLink>
