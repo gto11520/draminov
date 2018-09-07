@@ -29,7 +29,9 @@
     position: relative;
     padding-top: 4rem;
     padding-bottom: 4rem;
-
+    .container{
+      max-width: 780px;
+    }
     p{
       color: #6c6c6c;
     }
@@ -48,6 +50,7 @@
     }
   }
   .about-section:after{
+    display: none;
     content: '';
     position: absolute;
     left: 50%;
@@ -68,7 +71,8 @@
     background-color: #f4f4f4;
 
     .heading{
-      width: 60%;
+      width: 1180px;
+      max-width: 90%;
       margin: auto;
       h1{
         color: #0a70c3;
@@ -80,12 +84,13 @@
     .cards-holder{
       width: 96%;
       margin: auto;
+      flex-wrap: wrap;
 
       .card {
         width: 22%;
-        margin-left: 1rem;
-        margin-right: 1rem;
-        box-shadow: 6px 6px 18px 0px rgba(0,0,0,0.15);
+        min-width: 375px;
+        margin: 1rem;
+        box-shadow: 0px 0px 18px 4px rgba(0, 0, 0, 0.15);
 
         .card-img-top{
           width: 50%;
@@ -102,6 +107,7 @@
     }
   }
   .specialties-section:after{
+    display: none;
     z-index: 1;
     content: '';
     position: absolute;
@@ -255,8 +261,28 @@
       height: 350px;
     }
     .details {
-      width: 60%;
+      width: 375px;
+      max-width: 90%;
       padding: 3rem 2rem;
+    }
+    .row .col-md-6{
+      padding: 0;
+    }
+  }
+}
+
+@media (max-width: 567px) {
+  .home{
+    .banner-section{
+      height: 320px;
+      .carousel-item img{
+        height: 320px;
+      }
+    }
+    .contact-section {
+      .details {
+        padding: 1rem 2rem;
+      }
     }
   }
 }

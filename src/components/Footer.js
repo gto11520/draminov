@@ -9,7 +9,7 @@ const Footer = () => (
 					<p> Lev Aminov works with you to ensure that you always have access to the treatment and care you require to make the fullest recovery possible. A work related accident in New York can be a devastating experience. Let us help you start to feel better if you’ve been in a recent accident or injury. Schedule your appointment with our team today.
 					</p>
 					<h5 className="m-b">CONTACT INFORMATION</h5>
-					<div className="d-flex flex-row justify-content-between">
+					<div className="d-flex flex-row flex-wrap justify-content-between">
 						<div>
 							<div><b>First Office</b></div>
 							<div>Lev Aminov Worker's Compensation Doctor</div>
