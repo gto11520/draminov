@@ -25,4 +25,44 @@
       color: #0a70c3;
     } 
   } 
+  .mobileMenu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    color: #fff;
+    background: #0a70c3;
+    display: block;
+    z-index: 10000;
+    > div {
+      padding: 1rem 2rem;
+      border-bottom: 1px solid #d3d3d3;
+    }
+    .close-button{
+      text-align: right;
+      padding: 0.5rem 1rem;
+    }
+    a{
+      color: #fff;
+    }
+    a.selected{
+      color: #fff;
+      font-weight: bold;
+    }
+  }
+  .show{
+    display: block;
+  }
+}
+
+@media (max-width: 567px) {
+  .header{
+    .navbar{
+      padding: 1rem;
+      i{
+        font-size: 32px;
+      }
+    } 
+  }
 }
