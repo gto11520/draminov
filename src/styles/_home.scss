@@ -87,8 +87,8 @@
       flex-wrap: wrap;
 
       .card {
-        width: 22%;
-        min-width: 375px;
+        width: 20%;
+        min-width: 360px;
         margin: 1rem;
         box-shadow: 0px 0px 18px 4px rgba(0, 0, 0, 0.15);
 
@@ -263,6 +263,7 @@
     .details {
       width: 375px;
       max-width: 90%;
+      min-height: 281px;
       padding: 3rem 2rem;
     }
     .row .col-md-6{
